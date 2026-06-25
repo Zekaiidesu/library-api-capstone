@@ -1,0 +1,49 @@
+openapi: 3.0.0
+
+info:
+  title: Library API
+  version: 1.0.0
+  description: Capstone Backend Project
+
+servers:
+  - url: http://localhost:3000
+
+paths:
+  /:
+    get:
+      summary: Home endpoint
+      responses:
+        200:
+          description: Success
+
+  /auth/register:
+    post:
+      summary: Register User
+
+  /auth/login:
+    post:
+      summary: Login User
+
+  /books:
+    get:
+      summary: Get All Books
+
+    post:
+      summary: Create Book
+
+  /borrow:
+    get:
+      summary: Get Borrowings
+
+    post:
+      summary: Borrow Book
+
+  /borrow/return/{id}:
+    put:
+      summary: Return Book
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
