@@ -58,8 +58,8 @@ npm start    # Production
 
 | Method | Endpoint | Deskripsi | Auth |
 |--------|----------|-----------|------|
-| POST | /auth/register | Register user | ❌ |
-| POST | /auth/login | Login user | ❌ |
+| POST | /auth/register | Register user | ✅  |
+| POST | /auth/login | Login user | ✅  |
 | GET | /books | Get semua buku | ✅ |
 | GET | /books/:id | Get buku by ID | ✅ |
 | POST | /books | Tambah buku | ✅ |
@@ -101,4 +101,4 @@ npm start    # Production
 
 ## 👨‍💻 Author
 
-[Nama Anda] - Capstone Project Neo Telemetri 2026
+Muhammad Zaky Ilham_2411513024 - Capstone Project Neo Telemetri 2026
