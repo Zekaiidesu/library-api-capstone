@@ -85,8 +85,8 @@ npm start    # Production
 
 ## 🔗 Deployment
 
-**URL API:** https://your-api.railway.app  
-**Swagger UI:** https://your-api.railway.app/api-docs
+**URL API:** https://library-api-capstone-production-bc03.up.railway.app  
+**Swagger UI:** https://library-api-capstone-production-bc03.up.railway.app/api-docs
 
 ## 📁 Environment Variables
 

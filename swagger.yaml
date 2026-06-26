@@ -1,10 +1,12 @@
-openapi: 3.0.0
+
 info:
   title: Library API
   version: 1.0.0
   description: Capstone Backend Project - Library Management System
 
 servers:
+  - url: https://library-api-capstone-production-bc03.up.railway.app
+    description: Production Server
   - url: http://localhost:3000
     description: Local Development
 
